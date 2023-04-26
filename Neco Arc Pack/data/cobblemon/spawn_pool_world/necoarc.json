@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "necoarc-1",
+        "pokemon": "necoarc",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "rare",
+        "level": "10-31",
+        "weight": 1.0,
+        "condition": {
+        "biomes": [ "#cobblemon:is_spooky"],
+        "neededNearbyBlocks": ["minecraft:red_carpet",
+                               "minecraft:white_carpet"
+                              ]
+        }
+      }
+    ]
+  }

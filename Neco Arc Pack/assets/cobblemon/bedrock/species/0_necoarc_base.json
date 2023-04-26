@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:necoarc",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:necoarc",
+      "model": "cobblemon:necoarc.geo",
+      "texture": "cobblemon:textures/pokemon/necoarc/necoarc.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/necoarc/necoarc_shiny.png"
+    },
+    {
+      "aspects": [
+        "mischief"
+      ],
+	  "model": "cobblemon:necoarc.geo"
+    }
+  ]
+}

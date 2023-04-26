@@ -1,0 +1,118 @@
+{
+  "implemented": true,
+  "name": "necoarc",
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.necoarc.desc1",
+    "cobblemon.species.necoarc.desc2"
+  ],
+  "height": 4,
+  "weight": 80,
+  "features": [
+    "mischief"
+  ],
+  "forms": [
+    {
+      "name": "normal"
+    }
+  ],
+  "shoulderMountable": true,
+  "shoulderEffects": [
+    "speed"
+  ],
+  "primaryType": "fighting",
+  "secondaryType": "fairy",
+  "baseStats": {
+    "hp": 80,
+    "attack": 105,
+    "defence": 60,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 95
+  },
+  "catchRate": 3,
+  "maleRatio": 0,
+  "baseExperienceYield": 270,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "monster",
+    "amorphous"
+  ],
+  "baseFriendship": 0,
+  "evYield": {
+    "speed": -2,
+    "attack": 1
+  },
+  "moves": [
+    "egg:disable",
+    "1:tackle",
+    "1:lowkick",
+    "1:taunt",
+    "1:torment",
+    "5:disarmingvoice",
+    "10:armthrust",
+    "13:charm",
+    "15:bulkup",
+    "18:machpunch",
+    "20:crushclaw",
+    "28:firepunch",
+    "28:icepunch",
+    "28:thunderpunch",
+    "32:drainpunch",
+    "35:thunderwave",
+    "40:playrough",
+    "46:closecombat",
+    "50:victorydance",
+    "67:surgingstrikes",
+    "75:explosion",
+    "86:populationbomb",
+    "100:shedtail",
+    "tm:rest",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:spikes",
+    "tutor:honeclaws"
+  ],
+  "abilities": [
+    "prankster",
+    "h:pixilate"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1.2,
+    "fixed": false
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:cod",
+        "quantityRange": "1-2",
+        "percentage": 66
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.8,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-4"
+  }
+  }
+}
